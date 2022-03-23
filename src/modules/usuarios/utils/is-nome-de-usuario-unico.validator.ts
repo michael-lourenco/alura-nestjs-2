@@ -1,9 +1,13 @@
 import { registerDecorator, ValidationArguments, ValidationOptions, ValidatorConstraint, ValidatorConstraintInterface } from "class-validator";
+import { UsuariosService } from "../services/usuariosService";
 
 @ValidatorConstraint()
 class IsNomeDeUsuarioUnicoConstraint implements ValidatorConstraintInterface {
-    validate(value: any, validatonArguments?: ValidationArguments): boolean {
-        throw new Error("Method not implemented.");
+
+    constructor(private usuariosService: UsuariosService) {}
+    
+    validate(nomeDeUsuario: string, validatonArguments?: ValidationArguments): boolean | Promise<boolean> {
+        return !!!this.usuariosService.buscaPorNomeDeUsuario(nomeDeUsuario);
     }
 }
 

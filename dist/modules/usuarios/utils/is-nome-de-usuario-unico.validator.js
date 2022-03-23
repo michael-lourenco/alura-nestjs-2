@@ -5,16 +5,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IsNomeDeUsuarioUnico = void 0;
 const class_validator_1 = require("class-validator");
+const usuariosService_1 = require("../services/usuariosService");
 let IsNomeDeUsuarioUnicoConstraint = class IsNomeDeUsuarioUnicoConstraint {
-    validate(value, validatonArguments) {
-        throw new Error("Method not implemented.");
+    constructor(usuariosService) {
+        this.usuariosService = usuariosService;
+    }
+    validate(nomeDeUsuario, validatonArguments) {
+        return !!!this.usuariosService.buscaPorNomeDeUsuario(nomeDeUsuario);
     }
 };
 IsNomeDeUsuarioUnicoConstraint = __decorate([
-    class_validator_1.ValidatorConstraint()
+    class_validator_1.ValidatorConstraint(),
+    __metadata("design:paramtypes", [usuariosService_1.UsuariosService])
 ], IsNomeDeUsuarioUnicoConstraint);
 function IsNomeDeUsuarioUnico(validationOptions) {
     return function (object, propertyName) {

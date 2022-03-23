@@ -11,10 +11,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Usuario = void 0;
 const class_validator_1 = require("class-validator");
+const is_nome_de_usuario_unico_validator_1 = require("../utils/is-nome-de-usuario-unico.validator");
 class Usuario {
 }
 __decorate([
-    IsNomeDeUsuarioUnico({
+    is_nome_de_usuario_unico_validator_1.IsNomeDeUsuarioUnico({
         message: "Nome de usuário já existe"
     }),
     class_validator_1.IsNotEmpty({

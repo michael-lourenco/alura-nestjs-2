@@ -1,4 +1,5 @@
 import { IsEmail, IsNotEmpty, IsString } from "class-validator";
+import { IsNomeDeUsuarioUnico } from "../utils/is-nome-de-usuario-unico.validator";
 
 export class Usuario {
     id: number;
