@@ -1397,17 +1397,17 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/services/usuariosService.ts": {
-        "version": "901e66f58b2b5553b632d378762ec6b2bcadd4ba240204475747e2caccc854d9",
+        "version": "b12d800749a9605b6f9c73421c34d0496c1e8babbd2a39a95208f263ae61905b",
         "signature": "8087098004ff4df374a817d0751ba5168bbeebc60494b37ca6dacae8385f113d",
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/http/controllers/usuariosController.ts": {
-        "version": "4d25b7ba22edc49fb73bc0882a9712adbe3502196b6ee8a472ebf42aff71d683",
-        "signature": "342f285f45f99db234b57450835eea02712e5f1a39747ea3c41e871564f3cb5e",
+        "version": "239a0b289002172b324f7e04818b45dd7f44b4cc83f19a15a98f0f3b13b7e885",
+        "signature": "14ff627cf00a9f0dcc443974f656ee58ba595ec82fa14c5369a5c0df067f61dd",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "adabe38460df57052f72567c46375a59dc9ecb9140f405287643e70dc4e5bfd8",
+        "version": "d65f4ba3629b4713748caa9eb5003bdd8a604e18cbafc94784072a4a90504b24",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -4632,7 +4632,8 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/modules/usuarios/http/controllers/usuariosController.ts"
+        "../src/modules/usuarios/http/controllers/usuariosController.ts",
+        "../src/modules/usuarios/services/usuariosService.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -4651,6 +4652,7 @@
         "../src/modules/usuarios/services/usuariosService.ts"
       ],
       "../src/modules/usuarios/services/usuariosService.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
@@ -7511,6 +7513,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/modules/usuarios/http/controllers/usuariosController.ts": [
+        "../src/modules/usuarios/services/usuariosService.ts"
       ],
       "../../../node_modules/@types/body-parser/index.d.ts": [
         "../node_modules/@types/connect/index.d.ts",

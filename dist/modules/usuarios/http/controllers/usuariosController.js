@@ -16,8 +16,8 @@ exports.UsuariosController = void 0;
 const common_1 = require("@nestjs/common");
 const usuariosService_1 = require("../../services/usuariosService");
 let UsuariosController = class UsuariosController {
-    constructor() {
-        this.usuarioService = new usuariosService_1.UsuariosService();
+    constructor(usuarioService) {
+        this.usuarioService = usuarioService;
     }
     criar(usuario) {
         const usuarioCriado = this.usuarioService.criar(usuario);
@@ -32,7 +32,8 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], UsuariosController.prototype, "criar", null);
 UsuariosController = __decorate([
-    common_1.Controller('users')
+    common_1.Controller('users'),
+    __metadata("design:paramtypes", [usuariosService_1.UsuariosService])
 ], UsuariosController);
 exports.UsuariosController = UsuariosController;
 //# sourceMappingURL=usuariosController.js.map
