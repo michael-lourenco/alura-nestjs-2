@@ -20,11 +20,22 @@ let UsuariosController = class UsuariosController {
     constructor(usuarioService) {
         this.usuarioService = usuarioService;
     }
+    buscaPorNomeDeUsuario(nomeDeUsuario) {
+        const usuarioEncontrado = this.usuarioService.buscaPorNomeDeUsuario(nomeDeUsuario);
+        return usuarioEncontrado;
+    }
     criar(usuario) {
         const usuarioCriado = this.usuarioService.criar(usuario);
         return usuarioCriado;
     }
 };
+__decorate([
+    common_1.Get(':nomeDeUsuario'),
+    __param(0, common_1.Param('nomeDeUsuario')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", usuarioEntity_1.Usuario)
+], UsuariosController.prototype, "buscaPorNomeDeUsuario", null);
 __decorate([
     common_1.Post(),
     __param(0, common_1.Body()),

@@ -10,7 +10,17 @@ exports.UsuariosService = void 0;
 const common_1 = require("@nestjs/common");
 let UsuariosService = class UsuariosService {
     constructor() {
-        this.usuarios = [];
+        this.usuarios = [{
+                id: 1,
+                nomeDeUsuario: "usuario1",
+                email: "teste@teste",
+                senha: "senha1",
+                nomeCompleto: "Usuario 1",
+                dataDeEntrada: new Date()
+            }];
+    }
+    buscaPorNomeDeUsuario(nomeDeUsuario) {
+        return this.usuarios.find(usuario => usuario.nomeDeUsuario === nomeDeUsuario);
     }
     criar(usuario) {
         this.usuarios.push(usuario);

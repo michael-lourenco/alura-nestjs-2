@@ -1402,13 +1402,13 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/services/usuariosService.ts": {
-        "version": "8aeef5d71539c711581efb694575fddb8f94f39ba5f4ce9ff230cd48f78c7f6b",
-        "signature": "d0a0e751ae6d64cce270789b7bdff5b1191b466ee551ff1577ac0ecf436232cc",
+        "version": "66be6b853c831575ac344a6583ed420de5413c0bddf419169a7bb09cd8147f2e",
+        "signature": "53d157b73ac8ede21911cd4ac5fac95e540695c1da1b82637c4ffb95a7866e0e",
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/http/controllers/usuariosController.ts": {
-        "version": "e1aefd2ea47988814bc7e87bbaaf0054990c428149c5e4a480c9a81c8fd3f342",
-        "signature": "13c45978f9124a09ce1af211e29a3d69017382fae3550f4980d2a304ece800e4",
+        "version": "8cb2488b1c6650bbc5456a54af6c8e384ddd0ee1e012f95795280de01706f4da",
+        "signature": "eab2bc828ffc81e30546bf8313020a505a806a95af80914367129b8549f49ec9",
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/usuarios.module.ts": {
