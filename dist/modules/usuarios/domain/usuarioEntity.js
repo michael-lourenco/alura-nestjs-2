@@ -14,6 +14,9 @@ const class_validator_1 = require("class-validator");
 class Usuario {
 }
 __decorate([
+    IsNomeDeUsuarioUnico({
+        message: "Nome de usuário já existe"
+    }),
     class_validator_1.IsNotEmpty({
         message: 'nomeDeUsuario é obrigatório.'
     }),

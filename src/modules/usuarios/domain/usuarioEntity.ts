@@ -2,7 +2,10 @@ import { IsEmail, IsNotEmpty, IsString } from "class-validator";
 
 export class Usuario {
     id: number;
- 
+    
+    @IsNomeDeUsuarioUnico({
+        message: "Nome de usuário já existe"
+    })
     @IsNotEmpty({
         message: 'nomeDeUsuario é obrigatório.'
     })
@@ -28,4 +31,3 @@ export class Usuario {
  
     dataDeEntrada: Date;
  }
- 

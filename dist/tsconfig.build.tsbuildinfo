@@ -2012,7 +2012,7 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/domain/usuarioEntity.ts": {
-        "version": "456821128046d34a00691716e3258576810f23b3df1ccae2951a25c997a69ec1",
+        "version": "0c37b95f460b246e9755d56f41757f5a59e4872e05cea2f542cc98a91dcd1755",
         "signature": "adc3ae0ac616670e5a652d27d26b756a5d52aee2fc6c2bb056f85f66e9528d5f",
         "affectsGlobalScope": false
       },
@@ -2219,6 +2219,11 @@
       "../src/main.ts": {
         "version": "87a152025906e130aadbfbd63bca0fd91c01ad1161d4f336ba5ae35d7f84964d",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/modules/usuarios/utils/is-nome-de-usuario-unico.validator.ts": {
+        "version": "5a92b8030589ec573e545c0eb55f95de3b65ca5867840607ab1ff6df60056869",
+        "signature": "5d7597f34682ae654b130df6a4cba9c9b67135b006a6bf69095a76d5ca33651b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -6293,6 +6298,13 @@
         "../src/modules/usuarios/http/controllers/usuariosController.ts",
         "../src/modules/usuarios/services/usuariosService.ts"
       ],
+      "../src/modules/usuarios/utils/is-nome-de-usuario-unico.validator.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
       "../../../node_modules/@types/body-parser/index.d.ts": [
         "../node_modules/@types/connect/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -10148,6 +10160,9 @@
       "../src/modules/usuarios/services/usuariosService.ts": [
         "../src/modules/usuarios/domain/usuarioEntity.ts"
       ],
+      "../src/modules/usuarios/utils/is-nome-de-usuario-unico.validator.ts": [
+        "../node_modules/class-validator/types/index.d.ts"
+      ],
       "../../../node_modules/@types/body-parser/index.d.ts": [
         "../node_modules/@types/connect/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -10693,10 +10708,23 @@
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
       "../src/main.ts",
-      "../src/modules/usuarios/domain/usuarioEntity.ts",
+      [
+        "../src/modules/usuarios/domain/usuarioEntity.ts",
+        [
+          {
+            "file": "../src/modules/usuarios/domain/usuarioEntity.ts",
+            "start": 115,
+            "length": 20,
+            "messageText": "Cannot find name 'IsNomeDeUsuarioUnico'.",
+            "category": 1,
+            "code": 2304
+          }
+        ]
+      ],
       "../src/modules/usuarios/http/controllers/usuariosController.ts",
       "../src/modules/usuarios/services/usuariosService.ts",
       "../src/modules/usuarios/usuarios.module.ts",
+      "../src/modules/usuarios/utils/is-nome-de-usuario-unico.validator.ts",
       "../../../node_modules/@types/body-parser/index.d.ts",
       "../../../node_modules/@types/cors/index.d.ts",
       "../../../node_modules/@types/express-serve-static-core/index.d.ts",
