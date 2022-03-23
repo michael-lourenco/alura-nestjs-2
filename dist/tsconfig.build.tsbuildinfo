@@ -2012,7 +2012,7 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/domain/usuarioEntity.ts": {
-        "version": "18bbb9036758f9380d2e3a09f9bdadb1b6a0f2ee86bf5565b1c780e6ea17cbc3",
+        "version": "456821128046d34a00691716e3258576810f23b3df1ccae2951a25c997a69ec1",
         "signature": "adc3ae0ac616670e5a652d27d26b756a5d52aee2fc6c2bb056f85f66e9528d5f",
         "affectsGlobalScope": false
       },
@@ -2217,7 +2217,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "87a152025906e130aadbfbd63bca0fd91c01ad1161d4f336ba5ae35d7f84964d",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -6252,6 +6252,7 @@
         "../src/modules/usuarios/usuarios.module.ts"
       ],
       "../src/main.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",

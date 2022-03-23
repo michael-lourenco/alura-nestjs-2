@@ -14,21 +14,29 @@ const class_validator_1 = require("class-validator");
 class Usuario {
 }
 __decorate([
-    class_validator_1.IsNotEmpty(),
-    class_validator_1.IsString(),
+    class_validator_1.IsNotEmpty({
+        message: 'nomeDeUsuario é obrigatório.'
+    }),
+    class_validator_1.IsString({
+        message: 'nomeDeUsuario precisa ser uma string.'
+    }),
     __metadata("design:type", String)
 ], Usuario.prototype, "nomeDeUsuario", void 0);
 __decorate([
-    class_validator_1.IsEmail(),
+    class_validator_1.IsEmail({}, {
+        message: 'email precisa ser um endereço de email válido.'
+    }),
     __metadata("design:type", String)
 ], Usuario.prototype, "email", void 0);
 __decorate([
-    class_validator_1.IsNotEmpty(),
+    class_validator_1.IsNotEmpty({
+        message: 'senha é obrigatório.'
+    }),
     __metadata("design:type", String)
 ], Usuario.prototype, "senha", void 0);
 __decorate([
     class_validator_1.IsNotEmpty({
-        message: "O nome completo é obrigatório"
+        message: 'nomeCompleto é obrigatório.'
     }),
     __metadata("design:type", String)
 ], Usuario.prototype, "nomeCompleto", void 0);
