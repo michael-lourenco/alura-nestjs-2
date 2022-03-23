@@ -1396,14 +1396,19 @@
         "signature": "abec56db8d9e8c0be53354ab0f3e6bc5a888ea005f32e43f9893ae1e49360db7",
         "affectsGlobalScope": false
       },
+      "../src/modules/usuarios/domain/usuarioEntity.ts": {
+        "version": "ee593651b9e5aa502397cd72ef999eb90da40ad99d7a753bcbf89a4ba9067e66",
+        "signature": "adc3ae0ac616670e5a652d27d26b756a5d52aee2fc6c2bb056f85f66e9528d5f",
+        "affectsGlobalScope": false
+      },
       "../src/modules/usuarios/services/usuariosService.ts": {
-        "version": "b12d800749a9605b6f9c73421c34d0496c1e8babbd2a39a95208f263ae61905b",
-        "signature": "8087098004ff4df374a817d0751ba5168bbeebc60494b37ca6dacae8385f113d",
+        "version": "8aeef5d71539c711581efb694575fddb8f94f39ba5f4ce9ff230cd48f78c7f6b",
+        "signature": "d0a0e751ae6d64cce270789b7bdff5b1191b466ee551ff1577ac0ecf436232cc",
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/http/controllers/usuariosController.ts": {
-        "version": "239a0b289002172b324f7e04818b45dd7f44b4cc83f19a15a98f0f3b13b7e885",
-        "signature": "14ff627cf00a9f0dcc443974f656ee58ba595ec82fa14c5369a5c0df067f61dd",
+        "version": "e1aefd2ea47988814bc7e87bbaaf0054990c428149c5e4a480c9a81c8fd3f342",
+        "signature": "13c45978f9124a09ce1af211e29a3d69017382fae3550f4980d2a304ece800e4",
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/usuarios.module.ts": {
@@ -4647,12 +4652,19 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/app.module.ts"
       ],
+      "../src/modules/usuarios/domain/usuarioEntity.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/modules/usuarios/http/controllers/usuariosController.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/modules/usuarios/domain/usuarioEntity.ts",
         "../src/modules/usuarios/services/usuariosService.ts"
       ],
       "../src/modules/usuarios/services/usuariosService.ts": [
@@ -4660,7 +4672,8 @@
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
+        "../node_modules/@types/node/util.d.ts",
+        "../src/modules/usuarios/domain/usuarioEntity.ts"
       ],
       "../src/modules/usuarios/usuarios.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -7528,7 +7541,11 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/modules/usuarios/http/controllers/usuariosController.ts": [
+        "../src/modules/usuarios/domain/usuarioEntity.ts",
         "../src/modules/usuarios/services/usuariosService.ts"
+      ],
+      "../src/modules/usuarios/services/usuariosService.ts": [
+        "../src/modules/usuarios/domain/usuarioEntity.ts"
       ],
       "../../../node_modules/@types/body-parser/index.d.ts": [
         "../node_modules/@types/connect/index.d.ts",
@@ -7952,6 +7969,7 @@
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
       "../src/main.ts",
+      "../src/modules/usuarios/domain/usuarioEntity.ts",
       "../src/modules/usuarios/http/controllers/usuariosController.ts",
       "../src/modules/usuarios/services/usuariosService.ts",
       "../src/modules/usuarios/usuarios.module.ts",
