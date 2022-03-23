@@ -14,13 +14,14 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UsuariosController = void 0;
 const common_1 = require("@nestjs/common");
+const usuariosService_1 = require("../../services/usuariosService");
 let UsuariosController = class UsuariosController {
     constructor() {
-        this.usuarios = [];
+        this.usuarioService = new usuariosService_1.UsuariosService();
     }
     criar(usuario) {
-        this.usuarios.push(usuario);
-        return usuario;
+        const usuarioCriado = this.usuarioService.criar(usuario);
+        return usuarioCriado;
     }
 };
 __decorate([

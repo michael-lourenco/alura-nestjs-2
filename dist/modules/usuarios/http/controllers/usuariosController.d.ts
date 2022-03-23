@@ -1,4 +1,4 @@
 export declare class UsuariosController {
-    private usuarios;
+    private usuarioService;
     criar(usuario: any): any;
 }
