@@ -2361,6 +2361,11 @@
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
+      "../src/common/filters/filtro-de-excecao-http.ts": {
+        "version": "3984a4475c7ab39c43018024fbd942563491303ebf7f2628a11ba874d8e40433",
+        "signature": "a3627a906ceb53cfb339be7839c95243a9c9821d7516033aba14005182eafc67",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@types/anymatch/index.d.ts": {
         "version": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
         "signature": "48b52264fa193879a074197839dbb4796fa07e86350ff888e5361e06aa46df76",
@@ -6598,6 +6603,13 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/modules/usuarios/usuarios.module.ts"
       ],
+      "../src/common/filters/filtro-de-excecao-http.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
@@ -10706,6 +10718,9 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/common/filters/filtro-de-excecao-http.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/modules/usuarios/http/controllers/usuariosController.ts": [
         "../src/modules/usuarios/domain/usuarioEntity.ts",

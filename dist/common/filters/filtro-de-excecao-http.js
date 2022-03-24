@@ -1,0 +1,28 @@
+"use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FiltroDeExcecaoHttp = void 0;
+const common_1 = require("@nestjs/common");
+let FiltroDeExcecaoHttp = class FiltroDeExcecaoHttp {
+    catch(exception, host) {
+        const context = host.switchToHttp();
+        const response = context.getResponse();
+        const request = context.getRequest();
+        response.status(500).json({
+            statusCode: 500,
+            timestamp: new Date().toISOString(),
+            path: response.req.url,
+            message: exception.message,
+        });
+    }
+};
+FiltroDeExcecaoHttp = __decorate([
+    common_1.Catch()
+], FiltroDeExcecaoHttp);
+exports.FiltroDeExcecaoHttp = FiltroDeExcecaoHttp;
+//# sourceMappingURL=filtro-de-excecao-http.js.map
