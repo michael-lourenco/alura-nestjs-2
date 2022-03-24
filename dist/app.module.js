@@ -9,6 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const core_1 = require("@nestjs/core");
+const filtro_de_excecao_http_1 = require("./common/filters/filtro-de-excecao-http");
 const usuarios_module_1 = require("./modules/usuarios/usuarios.module");
 let AppModule = class AppModule {
 };
@@ -17,6 +18,10 @@ AppModule = __decorate([
         imports: [usuarios_module_1.UsuariosModule],
         controllers: [],
         providers: [
+            {
+                provide: core_1.APP_FILTER,
+                useClass: filtro_de_excecao_http_1.FiltroDeExcecaoHttp,
+            },
             {
                 provide: core_1.APP_INTERCEPTOR,
                 useClass: common_1.ClassSerializerInterceptor,
