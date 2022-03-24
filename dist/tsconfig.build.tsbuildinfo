@@ -2362,7 +2362,7 @@
         "affectsGlobalScope": false
       },
       "../src/common/filters/filtro-de-excecao-http.ts": {
-        "version": "3984a4475c7ab39c43018024fbd942563491303ebf7f2628a11ba874d8e40433",
+        "version": "435c9f5c5ecdc8fdd225b9c1956d105e6add20be3424ea06dcb2ffb67353a446",
         "signature": "a3627a906ceb53cfb339be7839c95243a9c9821d7516033aba14005182eafc67",
         "affectsGlobalScope": false
       },
@@ -11304,6 +11304,7 @@
       "../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
+      "../src/common/filters/filtro-de-excecao-http.ts",
       "../src/main.ts",
       "../src/modules/usuarios/domain/usuarioEntity.ts",
       "../src/modules/usuarios/http/controllers/usuariosController.ts",

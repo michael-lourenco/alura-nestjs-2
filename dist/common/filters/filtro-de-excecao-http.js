@@ -13,12 +13,6 @@ let FiltroDeExcecaoHttp = class FiltroDeExcecaoHttp {
         const context = host.switchToHttp();
         const response = context.getResponse();
         const request = context.getRequest();
-        response.status(500).json({
-            statusCode: 500,
-            timestamp: new Date().toISOString(),
-            path: response.req.url,
-            message: exception.message,
-        });
     }
 };
 FiltroDeExcecaoHttp = __decorate([
