@@ -1396,6 +1396,141 @@
         "signature": "abec56db8d9e8c0be53354ab0f3e6bc5a888ea005f32e43f9893ae1e49360db7",
         "affectsGlobalScope": false
       },
+      "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts": {
+        "version": "b6e995b5ef6661f5636ff738e67e4ec90150768ef119ad74b473c404304408a1",
+        "signature": "b6e995b5ef6661f5636ff738e67e4ec90150768ef119ad74b473c404304408a1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts": {
+        "version": "5d470930bf6142d7cbda81c157869024527dc7911ba55d90b8387ef6e1585aa1",
+        "signature": "5d470930bf6142d7cbda81c157869024527dc7911ba55d90b8387ef6e1585aa1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts": {
+        "version": "074483fdbf20b30bd450e54e6892e96ea093430c313e61be5fdfe51588baa2d6",
+        "signature": "074483fdbf20b30bd450e54e6892e96ea093430c313e61be5fdfe51588baa2d6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts": {
+        "version": "b7e6a6a3495301360edb9e1474702db73d18be7803b3f5c6c05571212acccd16",
+        "signature": "b7e6a6a3495301360edb9e1474702db73d18be7803b3f5c6c05571212acccd16",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts": {
+        "version": "aa7527285c94043f21baf6e337bc60a92c20b6efaa90859473f6476954ac5f79",
+        "signature": "aa7527285c94043f21baf6e337bc60a92c20b6efaa90859473f6476954ac5f79",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts": {
+        "version": "dd3be6d9dcd79e46d192175a756546630f2dc89dab28073823c936557b977f26",
+        "signature": "dd3be6d9dcd79e46d192175a756546630f2dc89dab28073823c936557b977f26",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts": {
+        "version": "8d0566152618a1da6536c75a5659c139522d67c63a9ae27e8228d76ab0420584",
+        "signature": "8d0566152618a1da6536c75a5659c139522d67c63a9ae27e8228d76ab0420584",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts": {
+        "version": "ba06bf784edafe0db0e2bd1f6ecf3465b81f6b1819871bf190a0e0137b5b7f18",
+        "signature": "ba06bf784edafe0db0e2bd1f6ecf3465b81f6b1819871bf190a0e0137b5b7f18",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/enums/index.d.ts": {
+        "version": "a0500233cb989bcb78f5f1a81f51eabc06b5c39e3042c560a7489f022f1f55a3",
+        "signature": "a0500233cb989bcb78f5f1a81f51eabc06b5c39e3042c560a7489f022f1f55a3",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts": {
+        "version": "220508b3fb6b773f49d8fb0765b04f90ef15caacf0f3d260e3412ed38f71ef09",
+        "signature": "220508b3fb6b773f49d8fb0765b04f90ef15caacf0f3d260e3412ed38f71ef09",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts": {
+        "version": "1ad113089ad5c188fec4c9a339cb53d1bcbb65682407d6937557bb23a6e1d4e5",
+        "signature": "1ad113089ad5c188fec4c9a339cb53d1bcbb65682407d6937557bb23a6e1d4e5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts": {
+        "version": "e56427c055602078cbf0e58e815960541136388f4fc62554813575508def98b6",
+        "signature": "e56427c055602078cbf0e58e815960541136388f4fc62554813575508def98b6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts": {
+        "version": "1f58b0676a80db38df1ce19d15360c20ce9e983b35298a5d0b4aa4eb4fb67e0f",
+        "signature": "1f58b0676a80db38df1ce19d15360c20ce9e983b35298a5d0b4aa4eb4fb67e0f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts": {
+        "version": "3d67e7eb73c6955ee27f1d845cae88923f75c8b0830d4b5440eea2339958e8ec",
+        "signature": "3d67e7eb73c6955ee27f1d845cae88923f75c8b0830d4b5440eea2339958e8ec",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts": {
+        "version": "11fec302d58b56033ab07290a3abc29e9908e29d504db9468544b15c4cd7670d",
+        "signature": "11fec302d58b56033ab07290a3abc29e9908e29d504db9468544b15c4cd7670d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts": {
+        "version": "c66d6817c931633650edf19a8644eea61aeeb84190c7219911cefa8ddea8bd9a",
+        "signature": "c66d6817c931633650edf19a8644eea61aeeb84190c7219911cefa8ddea8bd9a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/interfaces/index.d.ts": {
+        "version": "ab1359707e4fc610c5f37f1488063af65cda3badca6b692d44b95e8380e0f6c2",
+        "signature": "ab1359707e4fc610c5f37f1488063af65cda3badca6b692d44b95e8380e0f6c2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/ClassTransformer.d.ts": {
+        "version": "37deda160549729287645b3769cf126b0a17e7e2218737352676705a01d5957e",
+        "signature": "37deda160549729287645b3769cf126b0a17e7e2218737352676705a01d5957e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts": {
+        "version": "d80ffdd55e7f4bc69cde66933582b8592d3736d3b0d1d8cc63995a7b2bcca579",
+        "signature": "d80ffdd55e7f4bc69cde66933582b8592d3736d3b0d1d8cc63995a7b2bcca579",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts": {
+        "version": "c9b71952b2178e8737b63079dba30e1b29872240b122905cbaba756cb60b32f5",
+        "signature": "c9b71952b2178e8737b63079dba30e1b29872240b122905cbaba756cb60b32f5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-instance.decorator.d.ts": {
+        "version": "b596585338b0d870f0e19e6b6bcbf024f76328f2c4f4e59745714e38ee9b0582",
+        "signature": "b596585338b0d870f0e19e6b6bcbf024f76328f2c4f4e59745714e38ee9b0582",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-plain.decorator.d.ts": {
+        "version": "e6717fc103dfa1635947bf2b41161b5e4f2fabbcaf555754cc1b4340ec4ca587",
+        "signature": "e6717fc103dfa1635947bf2b41161b5e4f2fabbcaf555754cc1b4340ec4ca587",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/transform-plain-to-instance.decorator.d.ts": {
+        "version": "c36186d7bdf1f525b7685ee5bf639e4b157b1e803a70c25f234d4762496f771f",
+        "signature": "c36186d7bdf1f525b7685ee5bf639e4b157b1e803a70c25f234d4762496f771f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts": {
+        "version": "026726932a4964341ab8544f12b912c8dfaa388d2936b71cc3eca0cffb49cc1d",
+        "signature": "026726932a4964341ab8544f12b912c8dfaa388d2936b71cc3eca0cffb49cc1d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/type.decorator.d.ts": {
+        "version": "83188d037c81bd27076218934ba9e1742ddb69cd8cc64cdb8a554078de38eb12",
+        "signature": "83188d037c81bd27076218934ba9e1742ddb69cd8cc64cdb8a554078de38eb12",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/decorators/index.d.ts": {
+        "version": "7d82f2d6a89f07c46c7e3e9071ab890124f95931d9c999ba8f865fa6ef6cbf72",
+        "signature": "7d82f2d6a89f07c46c7e3e9071ab890124f95931d9c999ba8f865fa6ef6cbf72",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/class-transformer/types/index.d.ts": {
+        "version": "4fc523037d14d9bb6ddb586621a93dd05b6c6d8d59919a40c436ca3ac29d9716",
+        "signature": "4fc523037d14d9bb6ddb586621a93dd05b6c6d8d59919a40c436ca3ac29d9716",
+        "affectsGlobalScope": false
+      },
       "../node_modules/class-validator/types/validation/ValidationError.d.ts": {
         "version": "d224f2ef464cf2a544dcf6be6b416db5563aa5ca4c94e2a1d93bf3765c1f77cb",
         "signature": "d224f2ef464cf2a544dcf6be6b416db5563aa5ca4c94e2a1d93bf3765c1f77cb",
@@ -2022,7 +2157,7 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/domain/usuarioEntity.ts": {
-        "version": "e54d3928a464a24667f02e456d8b6367f23642cb85651ad586591be9155ffe6a",
+        "version": "082e94c75215b73b294c12b8f94354b7014e600fc2ba24566c403f531ee05c27",
         "signature": "adc3ae0ac616670e5a652d27d26b756a5d52aee2fc6c2bb056f85f66e9528d5f",
         "affectsGlobalScope": false
       },
@@ -4474,6 +4609,212 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/class-transformer/types/ClassTransformer.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform-instance-to-instance.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform-instance-to-plain.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform-plain-to-instance.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/type.decorator.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-instance.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-plain.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform-plain-to-instance.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/type.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/enums/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts"
+      ],
+      "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/ClassTransformer.d.ts",
+        "../node_modules/class-transformer/types/decorators/index.d.ts",
+        "../node_modules/class-transformer/types/enums/index.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts",
+        "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/enums/index.d.ts",
+        "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/class-validator/types/container.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -6271,6 +6612,7 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/index.d.ts",
         "../node_modules/class-validator/types/index.d.ts",
         "../src/modules/usuarios/utils/is-nome-de-usuario-unico.validator.ts"
       ],
@@ -8384,6 +8726,212 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../node_modules/class-transformer/types/ClassTransformer.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform-instance-to-instance.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform-instance-to-plain.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform-plain-to-instance.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts",
+        "../node_modules/class-transformer/types/decorators/type.decorator.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-instance.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-plain.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform-plain-to-instance.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/decorators/type.decorator.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/enums/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts"
+      ],
+      "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/ClassTransformer.d.ts",
+        "../node_modules/class-transformer/types/decorators/index.d.ts",
+        "../node_modules/class-transformer/types/enums/index.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts",
+        "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts",
+        "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/enums/index.d.ts",
+        "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts",
+        "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/class-transformer/types/interfaces/index.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../node_modules/class-validator/types/container.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -10490,6 +11038,33 @@
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
       "../node_modules/axios/index.d.ts",
+      "../node_modules/class-transformer/types/ClassTransformer.d.ts",
+      "../node_modules/class-transformer/types/decorators/exclude.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/expose.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/index.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-instance.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform-instance-to-plain.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform-plain-to-instance.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/transform.decorator.d.ts",
+      "../node_modules/class-transformer/types/decorators/type.decorator.d.ts",
+      "../node_modules/class-transformer/types/enums/index.d.ts",
+      "../node_modules/class-transformer/types/enums/transformation-type.enum.d.ts",
+      "../node_modules/class-transformer/types/index.d.ts",
+      "../node_modules/class-transformer/types/interfaces/class-constructor.type.d.ts",
+      "../node_modules/class-transformer/types/interfaces/class-transformer-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/exclude-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/transform-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-discriminator-descriptor.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/decorator-options/type-options.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/index.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/exclude-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/expose-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-fn-params.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/transform-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/metadata/type-metadata.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/target-map.interface.d.ts",
+      "../node_modules/class-transformer/types/interfaces/type-help-options.interface.d.ts",
       "../node_modules/class-validator/types/container.d.ts",
       "../node_modules/class-validator/types/decorator/ValidationOptions.d.ts",
       "../node_modules/class-validator/types/decorator/array/ArrayContains.d.ts",

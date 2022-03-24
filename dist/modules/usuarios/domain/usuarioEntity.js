@@ -10,11 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Usuario = void 0;
+const class_transformer_1 = require("class-transformer");
 const class_validator_1 = require("class-validator");
 const is_nome_de_usuario_unico_validator_1 = require("../utils/is-nome-de-usuario-unico.validator");
 class Usuario {
 }
 __decorate([
+    class_transformer_1.Expose({
+        name: 'userName'
+    }),
     is_nome_de_usuario_unico_validator_1.IsNomeDeUsuarioUnico({
         message: "Nome de usuário já existe"
     }),
@@ -33,16 +37,31 @@ __decorate([
     __metadata("design:type", String)
 ], Usuario.prototype, "email", void 0);
 __decorate([
+    class_transformer_1.Expose({
+        name: 'password'
+    }),
+    class_transformer_1.Exclude({
+        toPlainOnly: true
+    }),
     class_validator_1.IsNotEmpty({
-        message: 'senha é obrigatório.'
+        message: 'senha é obrigatória.'
     }),
     __metadata("design:type", String)
 ], Usuario.prototype, "senha", void 0);
 __decorate([
+    class_transformer_1.Expose({
+        name: 'fullName'
+    }),
     class_validator_1.IsNotEmpty({
         message: 'nomeCompleto é obrigatório.'
     }),
     __metadata("design:type", String)
 ], Usuario.prototype, "nomeCompleto", void 0);
+__decorate([
+    class_transformer_1.Expose({
+        name: 'joinDate'
+    }),
+    __metadata("design:type", Date)
+], Usuario.prototype, "dataDeEntrada", void 0);
 exports.Usuario = Usuario;
 //# sourceMappingURL=usuarioEntity.js.map
