@@ -9,7 +9,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.IsNomeDeUsuarioUnico = void 0;
+exports.IsNomeDeUsuarioUnico = exports.IsNomeDeUsuarioUnicoConstraint = void 0;
+const common_1 = require("@nestjs/common");
 const class_validator_1 = require("class-validator");
 const usuariosService_1 = require("../services/usuariosService");
 let IsNomeDeUsuarioUnicoConstraint = class IsNomeDeUsuarioUnicoConstraint {
@@ -21,9 +22,11 @@ let IsNomeDeUsuarioUnicoConstraint = class IsNomeDeUsuarioUnicoConstraint {
     }
 };
 IsNomeDeUsuarioUnicoConstraint = __decorate([
+    common_1.Injectable(),
     class_validator_1.ValidatorConstraint(),
     __metadata("design:paramtypes", [usuariosService_1.UsuariosService])
 ], IsNomeDeUsuarioUnicoConstraint);
+exports.IsNomeDeUsuarioUnicoConstraint = IsNomeDeUsuarioUnicoConstraint;
 function IsNomeDeUsuarioUnico(validationOptions) {
     return function (object, propertyName) {
         class_validator_1.registerDecorator({
