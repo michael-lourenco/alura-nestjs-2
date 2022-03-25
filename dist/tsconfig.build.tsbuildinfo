@@ -1581,6 +1581,16 @@
         "signature": "69469c41a511f6ab5db973cb5460e769711371b4b07f9e3c8a892b3ef6ec226c",
         "affectsGlobalScope": false
       },
+      "../src/core/http/nest-response.ts": {
+        "version": "63975cc674b235358d1324f73764b14891ca7ad929fee16deaa9dd0ae85b9e4e",
+        "signature": "9ac207cf9c31b38c9fea5a0c2a37457a2c3fa58e5c390fdbca29d1b2aaab2c5b",
+        "affectsGlobalScope": false
+      },
+      "../src/core/http/nest-response-builder.ts": {
+        "version": "cd746a5066b5c9e2bf2e901bd0d7b53d0e170b1deaef0358b3d4f3b14b4e5e67",
+        "signature": "963af947d6c6c80615090ce5087e6d5a5007f2e7af0ad5290785f34e01aa2bd2",
+        "affectsGlobalScope": false
+      },
       "../node_modules/class-transformer/types/interfaces/decorator-options/expose-options.interface.d.ts": {
         "version": "b6e995b5ef6661f5636ff738e67e4ec90150768ef119ad74b473c404304408a1",
         "signature": "b6e995b5ef6661f5636ff738e67e4ec90150768ef119ad74b473c404304408a1",
@@ -2347,8 +2357,8 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/http/controllers/usuariosController.ts": {
-        "version": "8cb2488b1c6650bbc5456a54af6c8e384ddd0ee1e012f95795280de01706f4da",
-        "signature": "eab2bc828ffc81e30546bf8313020a505a806a95af80914367129b8549f49ec9",
+        "version": "1388c57a61a93490acdc320e655f729b3340ee3817aa6ecef7bd627a40986a19",
+        "signature": "542de21a207653e3a2148852ef98a778dea221a4173af646a797e6e90bab873b",
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/usuarios.module.ts": {
@@ -6612,6 +6622,19 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/core/http/nest-response-builder.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/core/http/nest-response.ts"
+      ],
+      "../src/core/http/nest-response.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/main.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
@@ -6637,6 +6660,8 @@
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
+        "../src/core/http/nest-response-builder.ts",
+        "../src/core/http/nest-response.ts",
         "../src/modules/usuarios/domain/usuarioEntity.ts",
         "../src/modules/usuarios/services/usuariosService.ts"
       ],
@@ -10725,7 +10750,11 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts"
       ],
+      "../src/core/http/nest-response-builder.ts": [
+        "../src/core/http/nest-response.ts"
+      ],
       "../src/modules/usuarios/http/controllers/usuariosController.ts": [
+        "../src/core/http/nest-response.ts",
         "../src/modules/usuarios/domain/usuarioEntity.ts",
         "../src/modules/usuarios/services/usuariosService.ts"
       ],
@@ -11308,6 +11337,8 @@
       "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
       "../src/app.module.ts",
       "../src/common/filters/filtro-de-excecao-http.ts",
+      "../src/core/http/nest-response-builder.ts",
+      "../src/core/http/nest-response.ts",
       "../src/main.ts",
       "../src/modules/usuarios/domain/usuarioEntity.ts",
       "../src/modules/usuarios/http/controllers/usuariosController.ts",

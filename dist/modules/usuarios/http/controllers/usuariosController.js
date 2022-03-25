@@ -14,6 +14,8 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UsuariosController = void 0;
 const common_1 = require("@nestjs/common");
+const nest_response_1 = require("src/core/http/nest-response");
+const nest_response_builder_1 = require("src/core/http/nest-response-builder");
 const usuarioEntity_1 = require("../../domain/usuarioEntity");
 const usuariosService_1 = require("../../services/usuariosService");
 let UsuariosController = class UsuariosController {
@@ -26,7 +28,11 @@ let UsuariosController = class UsuariosController {
     }
     criar(usuario) {
         const usuarioCriado = this.usuarioService.criar(usuario);
-        return usuarioCriado;
+        return new nest_response_builder_1.NestResponseBuilder()
+            .comStatus(common_1.HttpStatus.CREATED)
+            .comHeaders({ 'Location': `/users/${usuarioCriado.nomeDeUsuario}` })
+            .comBody(usuarioCriado)
+            .build();
     }
 };
 __decorate([
@@ -41,7 +47,7 @@ __decorate([
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [usuarioEntity_1.Usuario]),
-    __metadata("design:returntype", usuarioEntity_1.Usuario)
+    __metadata("design:returntype", nest_response_1.NestResponse)
 ], UsuariosController.prototype, "criar", null);
 UsuariosController = __decorate([
     common_1.Controller('users'),
