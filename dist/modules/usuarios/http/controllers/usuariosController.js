@@ -24,6 +24,12 @@ let UsuariosController = class UsuariosController {
     }
     buscaPorNomeDeUsuario(nomeDeUsuario) {
         const usuarioEncontrado = this.usuarioService.buscaPorNomeDeUsuario(nomeDeUsuario);
+        if (!usuarioEncontrado) {
+            throw new common_1.NotFoundException({
+                statusCode: common_1.HttpStatus.NOT_FOUND,
+                message: `Usuário ${nomeDeUsuario} não encontrado`
+            });
+        }
         return usuarioEncontrado;
     }
     criar(usuario) {

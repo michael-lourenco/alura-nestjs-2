@@ -2882,7 +2882,7 @@
         "affectsGlobalScope": false
       },
       "../src/modules/usuarios/http/controllers/usuariosController.ts": {
-        "version": "c92a7ee446ed0e44a412d13929886259526a85b0dbf251a090af17456e7a7dd8",
+        "version": "2a8f250a464071f96a2daa8c890483bdd326f6feb72502848ec6de7307791f87",
         "signature": "735c99ab782fd37b90924f9c13dc86528084f4732e1620e5daa78f3f9d977571",
         "affectsGlobalScope": false
       },
