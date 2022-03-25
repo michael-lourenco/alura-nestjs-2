@@ -10,6 +10,7 @@ exports.AppModule = void 0;
 const common_1 = require("@nestjs/common");
 const core_1 = require("@nestjs/core");
 const filtro_de_excecao_http_1 = require("./common/filters/filtro-de-excecao-http");
+const transforma_resposta_interceptor_1 = require("./core/http/transforma-resposta.interceptor");
 const usuarios_module_1 = require("./modules/usuarios/usuarios.module");
 let AppModule = class AppModule {
 };
@@ -25,6 +26,10 @@ AppModule = __decorate([
             {
                 provide: core_1.APP_INTERCEPTOR,
                 useClass: common_1.ClassSerializerInterceptor,
+            },
+            {
+                provide: core_1.APP_INTERCEPTOR,
+                useClass: transforma_resposta_interceptor_1.TransformaRespostaInterceptor,
             }
         ],
     })

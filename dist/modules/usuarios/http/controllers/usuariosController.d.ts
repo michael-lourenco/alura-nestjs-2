@@ -1,4 +1,4 @@
-import { NestResponse } from "src/core/http/nest-response";
+import { NestResponse } from "../../../../core/http/nest-response";
 import { Usuario } from "../../domain/usuarioEntity";
 import { UsuariosService } from "../../services/usuariosService";
 export declare class UsuariosController {

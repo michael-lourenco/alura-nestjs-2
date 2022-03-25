@@ -14,8 +14,8 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UsuariosController = void 0;
 const common_1 = require("@nestjs/common");
-const nest_response_1 = require("src/core/http/nest-response");
-const nest_response_builder_1 = require("src/core/http/nest-response-builder");
+const nest_response_1 = require("../../../../core/http/nest-response");
+const nest_response_builder_1 = require("../../../../core/http/nest-response-builder");
 const usuarioEntity_1 = require("../../domain/usuarioEntity");
 const usuariosService_1 = require("../../services/usuariosService");
 let UsuariosController = class UsuariosController {
