@@ -4,12 +4,12 @@ import { NestResponseBuilder } from "../../../../core/http/nest-response-builder
 import { Usuario } from "../../domain/usuarioEntity";
 import { UsuariosService } from "../../services/usuariosService";
 
-@Controller('users')
+@Controller("users")
 export class UsuariosController {
     constructor(private usuarioService: UsuariosService) {}
 
-    @Get(':nomeDeUsuario')
-    public buscaPorNomeDeUsuario(@Param('nomeDeUsuario') nomeDeUsuario: string): Usuario {
+    @Get(":nomeDeUsuario")
+    public buscaPorNomeDeUsuario(@Param("nomeDeUsuario") nomeDeUsuario: string): Usuario {
         const usuarioEncontrado = this.usuarioService.buscaPorNomeDeUsuario(nomeDeUsuario);
         if(!usuarioEncontrado) {
             throw new NotFoundException({
@@ -25,7 +25,7 @@ export class UsuariosController {
         const usuarioCriado = this.usuarioService.criar(usuario);
         return new NestResponseBuilder()
             .comStatus(HttpStatus.CREATED)
-            .comHeaders({'Location': `/users/${usuarioCriado.nomeDeUsuario}`})
+            .comHeaders({"Location": `/users/${usuarioCriado.nomeDeUsuario}`})
             .comBody(usuarioCriado)
             .build();
     }

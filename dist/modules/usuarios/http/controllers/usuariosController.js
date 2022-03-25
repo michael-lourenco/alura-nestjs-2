@@ -36,14 +36,14 @@ let UsuariosController = class UsuariosController {
         const usuarioCriado = this.usuarioService.criar(usuario);
         return new nest_response_builder_1.NestResponseBuilder()
             .comStatus(common_1.HttpStatus.CREATED)
-            .comHeaders({ 'Location': `/users/${usuarioCriado.nomeDeUsuario}` })
+            .comHeaders({ "Location": `/users/${usuarioCriado.nomeDeUsuario}` })
             .comBody(usuarioCriado)
             .build();
     }
 };
 __decorate([
-    common_1.Get(':nomeDeUsuario'),
-    __param(0, common_1.Param('nomeDeUsuario')),
+    common_1.Get(":nomeDeUsuario"),
+    __param(0, common_1.Param("nomeDeUsuario")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", usuarioEntity_1.Usuario)
@@ -56,7 +56,7 @@ __decorate([
     __metadata("design:returntype", nest_response_1.NestResponse)
 ], UsuariosController.prototype, "criar", null);
 UsuariosController = __decorate([
-    common_1.Controller('users'),
+    common_1.Controller("users"),
     __metadata("design:paramtypes", [usuariosService_1.UsuariosService])
 ], UsuariosController);
 exports.UsuariosController = UsuariosController;

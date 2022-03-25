@@ -6,45 +6,45 @@ export class Usuario {
     id: number;
     
     @Expose({
-        name: 'userName'
+        name: "userName"
     })
     @IsNomeDeUsuarioUnico({
         message: "Nome de usuário já existe"
     })
     @IsNotEmpty({
-        message: 'nomeDeUsuario é obrigatório.'
+        message: "nomeDeUsuario é obrigatório."
     })
     @IsString({
-        message: 'nomeDeUsuario precisa ser uma string.'
+        message: "nomeDeUsuario precisa ser uma string."
     })
     nomeDeUsuario: string;
  
     @IsEmail({}, {
-        message: 'email precisa ser um endereço de email válido.'
+        message: "email precisa ser um endereço de email válido."
     })
     email: string;
  
     @Expose({
-        name: 'password'
+        name: "password"
     })
     @Exclude({
         toPlainOnly: true
     })
     @IsNotEmpty({
-        message: 'senha é obrigatória.'
+        message: "senha é obrigatória."
     })
     senha: string;
  
     @Expose({
-        name: 'fullName'
+        name: "fullName"
     })
     @IsNotEmpty({
-        message: 'nomeCompleto é obrigatório.'
+        message: "nomeCompleto é obrigatório."
     })
     nomeCompleto: string;
  
     @Expose({
-        name: 'joinDate'
+        name: "joinDate"
     })
     dataDeEntrada: Date;
  }

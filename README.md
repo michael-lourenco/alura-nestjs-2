@@ -1,3 +1,22 @@
+# Cursos realizados neste projeto
+
+Este projeto engloba 1(um) curso realizado através da plataforma [Alura](https://www.alura.com.br/).
+
+### Foco: 
+ - `Back-End`
+ - `NestJs`
+ - `API`
+ - `TypeScript`
+
+## APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais
+### Instrutor: [Rodolfo Ghiggi](https://github.com/rodolfoghi)
+
+Conhecimentos adquiridos:
+ - Organizar o projeto NestJS
+ - Entender a importância sobre validações e serializações e como elas se aplicam no framework
+ - Saiber o que são pipes, interceptadores, filtros de exceção e outros recursos, como e quando utilizá-los
+ - Conhecer detalhes intrincados do framework que te farão ir além do conteúdo mostrado na documentação
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
